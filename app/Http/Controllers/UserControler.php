@@ -19,5 +19,6 @@ class UserControler extends Controller
         $res = User::get();
         return view("usuarios", ["res"=>$res, "id"=>$id]);
     }
+    
 }
     
