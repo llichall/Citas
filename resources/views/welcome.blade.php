@@ -25,12 +25,12 @@
             @if (Route::has('login'))
                 <div class="hidden fixed top-0 right-0 px-6 py-4 sm:block">
                     @auth
-                        <a href="{{ url('/home') }}" class="text-sm text-gray-700 underline">Home</a>
+                        <a href="{{ url('/home') }}" class="text-sm text-gray-700 underline"  >Home</a>
                     @else
-                        <a href="{{ route('login') }}" class="text-sm text-gray-700 underline">Log in</a>
+                        <a href="{{ route('login') }}" class="text-sm text-gray-700 underline"style="color:#fff;">logearte</a>
 
                         @if (Route::has('register'))
-                            <a href="{{ route('register') }}" class="ml-4 text-sm text-gray-700 underline">Register</a>
+                            <a href="{{ route('register') }}" class="ml-4 text-sm text-gray-700 underline"  style="color:#fff;">Registrarte</a>
                         @endif
                     @endauth
                 </div>
@@ -38,7 +38,10 @@
             
 
         <!--  <header class="masthead d-flex align-items-center">--> 
-            <img class="img-fluid" src="/img/fonfo2.jpg" alt="..." />
+        <img id="box1 " src="/img/i1.jpg">
+            <h1 style ="position: absolute; color:#fff;font-size:200px; ">Hco citas</h1>
+        
+        
         <!--     <div class="container px-4 px-lg-5 text-center">
                 <h1 class="mb-1">HUANUCO CITAS</h1>
                 <h3 class="mb-5"><em>encuentra a tu pareja ideal</em></h3>

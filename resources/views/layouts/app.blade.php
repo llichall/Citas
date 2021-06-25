@@ -18,11 +18,13 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/css/styles.css">
+
 </head>
 <body>
     <div id="app"> 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <a class="navbar-brand" href="#">HUNAUCO CITAS</a>
+  <a class="navbar-brand" href="#">HUANUCO CITAS</a>
   
   <div class="collapse navbar-collapse" id="navbarText">
   @if(!empty($res))
@@ -69,7 +71,7 @@
                                    <a class="dropdown-item" href="{{ route('logout') }}"
                                       onclick="event.preventDefault();
                                                     document.getElementById('logout-form').submit();">
-                                       {{ __('Logout') }}
+                                       {{ __('cerrar cuenta') }}
                                    </a>
 
                                    <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
@@ -91,7 +93,7 @@
         <a class="nav-link" href="/perfil">PERFIL</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="">ADMINISTRAR USUARIOS</a>
+        <a class="nav-link" href="/administrar-usuarios">ADMINISTRAR USUARIOS</a>
       </li>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <!-- Left Side Of Navbar -->
@@ -142,7 +144,7 @@
  @endif
     
     <span class="navbar-text">
-      PARA SER MAS UNIDOS 7U7
+      
     </span>
   </div>
 </nav>

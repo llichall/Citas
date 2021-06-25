@@ -16,8 +16,16 @@ class UserControler extends Controller
     }
     public function mostrarusuarios(){
         $id = Auth::id();
-        $res = User::get();
-        return view("usuarios", ["res"=>$res, "id"=>$id]);
+        $res = User::where('id',$id)->get();
+        $user = User::get();
+        return view("usuarios", ["res"=>$res, "id"=>$id,"user"=>$user]);
+    }
+    
+    public function mostraradm(){
+        $id = Auth::id();
+        $res = User::where('id',$id)->get();
+        $user = User::get();
+        return view("vadmi", ["res"=>$res, "id"=>$id,"user"=>$user]);
     }
 
   /**

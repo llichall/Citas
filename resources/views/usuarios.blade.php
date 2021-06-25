@@ -10,7 +10,7 @@
 </div>
 
 </div>
-            @foreach($res as $usuario)
+            @foreach($user as $usuario)
 
             
             <div class="container mt-5 d-flex justify-content-center">

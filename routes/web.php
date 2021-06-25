@@ -29,3 +29,12 @@ Route::get('/perfil', [UserControler::class, "mostrar"]);
 
 Route::view('/usuarios', 'usuarios');
 Route::get('/usuarios', [UserControler::class, "mostrarusuarios"]);
+
+
+/*
+
+------------------------admin gaaa------------------------------
+*/
+
+Route::view('/administrar-usuarios', 'vadmi');
+Route::get('/administrar-usuarios', [UserControler::class, "mostraradm"]);

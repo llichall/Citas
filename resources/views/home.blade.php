@@ -4,8 +4,8 @@
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
-            <div class="card">
-                <div class="card-header text-center">{{ __('Bienvenido') }}</div>
+            <div class="card" style="background:#733b46;">
+                <div class="card-header text-center" style="color:#fff;"  >{{ __('Bienvenido') }}</div>
 
                 <div class="card-body">
                     @if (session('status'))
@@ -21,7 +21,7 @@
         <header class="masthead">
             <div class="container">
               
-                <div class="masthead-heading text-uppercase text-center">Encantado de conocerte <p></div>
+                <div class="masthead-heading text-uppercase text-center" style="color:#fff;" >Encantado de conocerte <p></div>
                 <a class="btn btn-primary btn-xl text-uppercase text-center" href="#services ">Historias </a>
             </div>
         </header>
@@ -30,8 +30,8 @@
             <div class="container">
                 <div class="text-center">
                 <h2 class="section-heading text-uppercase"><p></h2>
-                    <h2 class="section-heading text-uppercase">OBJETIVOS</h2>
-                    <h3 class="section-subheading text-muted">¿Que es lo que queremos lograr?</h3>
+                    <h2 class="section-heading text-uppercase" style="color:#fff;" >OBJETIVOS</h2>
+                    <h3 class="section-subheading text-muted" style="color:#fff;" >¿Que es lo que queremos lograr?</h3>
                 </div>
                 <div class="row text-center">
                     <div class="col-md-4">
@@ -39,15 +39,15 @@
                             <i class="fas fa-circle fa-stack-2x text-primary"></i>
                             <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
                         </span>
-                        <h4 class="my-3">citas</h4>
-                        <p class="text-muted">lograr que las personas cercanas que tengan interes mutuo puedan iniciar una conversacion y quedar en una cita</p>
+                        <h4 class="my-3" style="color:#fff;" >citas</h4>
+                        <p class="text-muted"  style="color:#fff;" >lograr que las personas cercanas que tengan interes mutuo puedan iniciar una conversacion y quedar en una cita</p>
                     </div>
                     <div class="col-md-4">
                         <span class="fa-stack fa-4x">
                             <i class="fas fa-circle fa-stack-2x text-primary"></i>
                             <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
                         </span>
-                        <h4 class="my-3">citas</h4>
+                        <h4 class="my-3" style="color:#fff;" >citas</h4>
                         <p class="text-muted">lograr que las personas cercanas que tengan interes mutuo puedan iniciar una conversacion y quedar en una cita</p>
                     </div>
                     <div class="col-md-4">
@@ -55,7 +55,7 @@
                             <i class="fas fa-circle fa-stack-2x text-primary"></i>
                             <i class="fas fa-lock fa-stack-1x fa-inverse"></i>
                         </span>
-                        <h4 class="my-3">citas</h4>
+                        <h4 class="my-3" style="color:#fff;" >citas</h4>
                         <p class="text-muted">lograr que las personas cercanas que tengan interes mutuo puedan iniciar una conversacion y quedar en una cita</p>
                     </div>
                 </div>
